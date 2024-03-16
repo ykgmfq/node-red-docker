@@ -1,6 +1,6 @@
 {
     "name": "node-red-docker",
-    "version": "3.1.7",
+    "version": "9000",
     "description": "Low-code programming for event-driven applications",
     "homepage": "http://nodered.org",
     "license": "Apache-2.0",
@@ -29,7 +29,12 @@
         }
     ],
     "dependencies": {
-        "node-red": "3.1.7"
+        "node-red": "3.x",
+        "node-red-contrib-sun-position":"2.1.x",
+        "node-red-contrib-home-assistant-websocket":"0.62.x",
+        "node-red-contrib-timed-counter":"*",
+        "node-red-contrib-spline-curve":"*",
+        "passport-openidconnect": "*"
     },
     "engines": {
         "node": ">=14"
